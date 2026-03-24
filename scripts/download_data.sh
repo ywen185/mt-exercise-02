@@ -24,8 +24,8 @@ mkdir -p $data/grimm
 
 mkdir -p $data/grimm/raw
 
-wget https://www.gutenberg.org/cache/epub/78260/pg78260.txt
-mv 52521-0.txt $data/grimm/raw/tales.txt
+wget -o pg78260 https://www.gutenberg.org/cache/epub/78260/pg78260.txt
+mv pg78260.txt $data/grimm/raw/tales.txt
 
 # preprocess slightly
 
